@@ -1,0 +1,78 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001010677
+status: discontinued
+summary: >-
+  FaxSav Incorporated no longer exists as an operating company. It was an
+  Edison, New Jersey internet-fax provider that IPO'd in 1996, renamed itself
+  NetMoves Corporation in February 1999, and was acquired by Mail.com, Inc. in
+  early 2000. Mail.com renamed itself EasyLink Services Corporation in April
+  2001, and the EasyLink business was acquired by OpenText in 2012. There is no
+  current FaxSav product, developer program, or API surface.
+sec_registrant:
+  name: NETMOVES CORP
+  former_name: FAXSAV INC
+  cik: '0001010677'
+  sic: '4822'
+  sic_description: Telegraph & Other Message Communications
+  state_of_incorporation: DE
+  state_location: NJ
+  address: 399 Thornall St, Edison, NJ 08837
+  total_filings: 67
+timeline:
+- date: '1995-06-29'
+  event: faxsav.com domain registered
+  source: whois
+- date: '1996-08-06'
+  event: FaxSav Inc files Form S-1 registration statement for its IPO
+  source: SEC EDGAR accession S-1 1996-08-06
+- date: '1996-09-13'
+  event: Form 8-A12G filed — common stock registered for public trading
+  source: SEC EDGAR
+- date: '1998-12-31'
+  event: 133 full-time employees reported in the FY1998 Form 10-K
+  source: SEC EDGAR 0001005477-99-001488
+- date: '1999-02-17'
+  event: FaxSav Inc renamed NetMoves Corporation
+  source: SEC EDGAR former-name record
+- date: '1999-12-11'
+  event: >-
+    Agreement and Plan of Merger signed with Mail.com, Inc. and Mast
+    Acquisition Corp; 0.385336 Mail.com Class A shares per NetMoves share
+  source: SEC EDGAR 8-K 0000912057-99-009635
+- date: '2000-02-11'
+  event: Form 8-K reporting completion of the Mail.com merger
+  source: SEC EDGAR
+- date: '2000-03-28'
+  event: Form 15-12G filed — deregistration, end of SEC reporting
+  source: SEC EDGAR
+- date: '2001-04-02'
+  event: Mail.com, Inc. renamed EasyLink Services Corporation
+  source: https://en.wikipedia.org/wiki/Mail.com
+- date: '2012'
+  event: OpenText acquires EasyLink Services International (~$232M)
+  source: https://en.wikipedia.org/wiki/Mail.com
+historical_products:
+- name: faxLauncher
+  description: >-
+    Windows desktop client that faxed documents from any application through the
+    FaxSav network; faxLauncher Pro added sent-fax logging and other features.
+- name: faxMailer
+  description: >-
+    Email-to-fax service using FaxSav's patented e-mail security ("Stamps")
+    technology to deliver email as fax worldwide.
+- name: Serverlink
+  description: >-
+    The nearest thing FaxSav had to a developer integration surface — let any
+    fax software or applications developer link their application to the FaxSav
+    Network for least-cost-routed worldwide fax distribution. Distributed
+    electronically to partners; no public specification survives.
+status_page: null
+deprecation_policy: null
+successor:
+  company: OpenText
+  via: FaxSav -> NetMoves -> Mail.com -> EasyLink Services -> OpenText
+  evidence: faxsav.com MX records still point to easylink.com; nameservers are opntxtdns.com
+archive:
+  wayback: https://web.archive.org/web/*/faxsav.com
+  last_substantive_capture: '2006'

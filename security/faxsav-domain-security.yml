@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of faxsav.com (2026-07-20)
+notes: >-
+  FaxSav is a defunct company (merged into Mail.com in 2000; lineage now inside
+  OpenText). faxsav.com is still registered and DNS-delegated to OpenText
+  nameservers (opntxtdns.com) with MX pointing at easylink.com, but no web
+  server answers on port 80 or 443 — connections time out. Absence of records
+  below is measured, not assumed.
+hosts:
+- host: faxsav.com
+  https: false
+  http_status: null
+  probe_result: connection timed out (ports 80 and 443 filtered/closed)
+- host: www.faxsav.com
+  https: false
+  http_status: null
+  probe_result: connection timed out
+domains:
+- domain: faxsav.com
+  registered: true
+  registrar: SafeNames Ltd.
+  created: '1995-06-29'
+  registry_expiry: '2026-12-02'
+  nameservers:
+  - ns1.opntxtdns.com
+  - ns2.opntxtdns.com
+  - ns4.opntxtdns.com
+  - ns5.opntxtdns.com
+  a_records:
+  - 150.105.185.81
+  - 150.105.219.25
+  mx:
+  - ev3-bigip-lt.lt.easylink.com
+  - ev3-bigip-al.al.easylink.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+  dmarc_policy: null

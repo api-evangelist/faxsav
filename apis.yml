@@ -1,22 +1,66 @@
 aid: faxsav
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/faxsav.png
 name: FaxSav
-description: FaxSav is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FaxSav Incorporated was an Edison, New Jersey internet-fax company that
+  designed, developed and marketed store-and-forward and real-time fax
+  transmission services over a hybrid telephony and Internet network, letting
+  customers bypass international long-distance rates. Its products included the
+  faxLauncher Windows desktop client, the faxMailer email-to-fax service built
+  on the company's patented e-mail security technology, and Serverlink, a
+  partner integration that let third-party fax software and application
+  developers route documents through the FaxSav Network. FaxSav went public in
+  1996, renamed itself NetMoves Corporation in February 1999, and was acquired
+  by Mail.com, Inc. in early 2000; Mail.com became EasyLink Services
+  Corporation in 2001 and the business was acquired by OpenText in 2012. The
+  company is defunct and operates no API, developer program, or public
+  developer portal today. This profile is retained as a historical record.
 url: https://raw.githubusercontent.com/api-evangelist/faxsav/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-company-no-api-surface
+x-status: defunct
+x-successor: opentext
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fax
+- Internet Fax
+- Messaging
+- Communications
+- Document Delivery
+- Telecommunications
+- Defunct
+- Historical
 apis: []
+common:
+- type: Lifecycle
+  url: lifecycle/faxsav-lifecycle.yml
+- type: DomainSecurity
+  url: security/faxsav-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
