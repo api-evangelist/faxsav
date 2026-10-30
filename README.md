@@ -64,15 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FaxSav Incorporated was an Edison, New Jersey internet-fax company that sold store-and-forward and real-time fax transmission over a hybrid telephony/Internet network, letting customers bypass international long-distance rates. Products included the faxLauncher Windows desktop client, the faxMailer email-to-fax service, and Serverlink, a partner integration that let third-party fax software and application developers route documents through the FaxSav Network.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: defunct.** FaxSav IPO'd in 1996, renamed itself NetMoves Corporation in February 1999, and was acquired by Mail.com, Inc. in early 2000 (SEC deregistration March 2000). Mail.com became EasyLink Services Corporation in 2001, and the business was acquired by OpenText in 2012. There is no current FaxSav product, developer program, or API.
+FaxSav Incorporated was an Edison, New Jersey internet-fax company that designed, developed and marketed store-and-forward and real-time fax transmission services over a hybrid telephony and Internet network, letting customers bypass international long-distance rates. Its products included the faxLauncher Windows desktop client, the faxMailer email-to-fax service built on the company's patented e-mail security technology, and Serverlink, a partner integration that let third-party fax software and application developers route documents through the FaxSav Network. FaxSav went public in 1996, renamed itself NetMoves Corporation in February 1999, and was acquired by Mail.com, Inc. in early 2000; Mail.com became EasyLink Services Corporation in 2001 and the business was acquired by OpenText in 2012. The company is defunct and operates no API, developer program, or public developer portal today. This profile is retained as a historical record.
 
-The `faxsav.com` domain is still registered and delegated to OpenText nameservers with MX pointing at `easylink.com`, but no web server answers on port 80 or 443.
+**Areas:** Company · Fax · Internet Fax · Messaging · Communications · Document Delivery · Telecommunications · Defunct · Historical
 
-Backed by: battery-ventures
+## FaxSav on APIs.io (historical record)
 
-## Artifacts
+Everything profiled for FaxSav is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/faxsav/](https://apis.io/providers/faxsav/)** — or go straight to one of the APIs or properties below.
 
-- `lifecycle/faxsav-lifecycle.yml` — corporate lifecycle, SEC filing timeline, historical products, successor chain
-- `security/faxsav-domain-security.yml` — live DNS/TLS/HTTP probe of `faxsav.com`
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Faxsav Domain Security](https://apis.io/security/faxsav/faxsav-domain-security/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FaxSav: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/faxsav/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
